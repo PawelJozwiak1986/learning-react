@@ -1,4 +1,4 @@
-  import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
@@ -18,7 +18,7 @@ class Square extends React.Component {
 
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square value={i}/>;
+    return  <Square value={i}/>;
   }
 
   render() {
